@@ -1,6 +1,18 @@
 team add Admin
 team join Admin BigNxsx39
 team modify Admin color red
+
+
+team add miner
+team modify miner color black
+
+team add hunter
+team modify hunter color yellow
+
+team add farmer
+team modify farmer color green
+
+
 execute at @a run playsound minecraft:block.amethyst_cluster.hit player @a[team=Admin]
 tellraw @a[team=Admin] {"text": "my_jobs by BigNxsx39 v1.5","color": "gold"}
 tellraw @a[team=Admin] {"text": "Miner Config Loaded.","color": "green"}

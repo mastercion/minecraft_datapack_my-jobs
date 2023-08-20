@@ -1,3 +1,4 @@
+# Have to change this in a later stage...                                            #
 scoreboard objectives add onebig dummy
 scoreboard players set BigNxsx39 onebig 10
 
@@ -20,7 +21,7 @@ execute if score BigNxsx39 is_blockid < BigNxsx39 onebig run tellraw @p [{"text"
 execute if score BigNxsx39 is_blockid < BigNxsx39 onebig run tellraw @p [{"text":""}]
 execute if score BigNxsx39 is_blockid < BigNxsx39 onebig run tellraw @p [{"text":""}]
 execute if score BigNxsx39 is_blockid < BigNxsx39 onebig run tellraw @p [{"text":""}]
-
+#                                                                                     #
 
 tellraw BigNxsx39 [{"text":"Stone: [","color":"grey"}, {"text":""},{"score":{"name":"*","objective":"stone_coin","color":"dark_aqua"}},{"text":" Coins]","color":"grey"}, {"text":" [","color":"grey"}, {"text":""},{"score":{"name":"*","objective":"stone_block","color":"dark_aqua"}},{"text":" Blocks]","color":"grey"}]
 tellraw BigNxsx39 [{"text":"Iron: [","color":"white"}, {"text":""},{"score":{"name":"*","objective":"iron_coin","color":"dark_aqua"}},{"text":" Coins]","color":"grey"}, {"text":" [","color":"grey"}, {"text":""},{"score":{"name":"*","objective":"iron_block","color":"dark_aqua"}},{"text":" Blocks]","color":"grey"}]
